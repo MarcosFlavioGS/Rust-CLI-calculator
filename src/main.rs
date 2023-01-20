@@ -23,7 +23,7 @@ fn operate(operator: char, first: f64, second: f64) -> f64 {
         '/' => first / second,
         '%' => first % second,
         '*' | 'x' | 'X' => first * second, // Colacando opções para o simbolo '*'. Tentar passar o operador como '\*'.
-        _ => panic!("Used invalid operator. please use '+', '-', '/', '%' and '*' or 'x'"),
+        _ => panic!("Used invalid operator. please use '+', '-', '/', '%' and '\\*' or 'x'"),
     }
 }
 
